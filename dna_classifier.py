@@ -3,7 +3,7 @@ import google.generativeai as genai
 import io
 import os
 genai.configure(api_key=os.getenv("AIzaSyBfijZ3PAx6mWtKrM5u8x86Yt3PpDMbEdw"))
-model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp")  
+model = genai.GenerativeModel("gemini-1.5-pro-latest")  
 
 # Streamlit app layout
 st.title("DNA Classifier with Gemini Pro")
